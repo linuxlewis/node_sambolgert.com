@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+        <link href='/static/css/bootstrap.css' rel='stylesheet' type='text/css'>
+        <link href='/static/css/style.css' rel='stylesheet' type='text/css'>
+
+        <title><%= title %></title>
+    </head>
+
+    <body>
+    <div class="container">
+        <div class="row">
+            <div class="span9 offset8">
+            <ul class="pills">
+                <li><h1><a href='/'>Home</a></h1></li>
+                <li><h1><a href='http://blog.sambolgert.com'>Blog</a></h1></li>
+                <li><h1><a href='/works'>Work</a></h1></li>
+                <li><h1><a href='/contact'>Contact</a></h1></li>
+            </ul>
+            </div>
+        </div>
+        <div class="row">
+        <%- body %>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="row">
+            <div class="span4 offset6">
+                <p>Copyright Sam Bolgert 2010-2012</p>
+            </div>
+        </div>
+    </div>
+    </body>
+
+
+</html>
