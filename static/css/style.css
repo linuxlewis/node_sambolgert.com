@@ -29,6 +29,14 @@ body{
     background-color:transparent;
     padding-top:60px;
 }
+/*** LAYOUT ***/
+#footer{
+    position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+}
 /*** GENERAL STYLES ***/
 .dark-link{
     color:#330000;
