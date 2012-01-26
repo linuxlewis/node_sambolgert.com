@@ -25,6 +25,6 @@ app.get('/contact', function(req, res){
         res.render('contact.html', {title: 'Sam Bolgert Softwarepreneur | Contact' });
     });
 
-app.listen(3000);
-console.log("Server running...");
+app.listen(1337);
+console.log("Server running on port 46067...");
 

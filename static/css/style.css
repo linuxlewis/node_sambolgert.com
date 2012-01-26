@@ -17,6 +17,13 @@ a{
 a:hover{
     color:#330000;
 }
+.section-title a{
+    color:white;
+}
+
+.section-title a:hover{
+    color:white;
+}
 .pills a:hover{
     background-color:#330000;
 }
@@ -36,6 +43,11 @@ body{
    bottom:0px;
    height:30px;
    width:100%;
+}
+.top-nav{
+    position:fixed;
+    top:0;
+    height:54px;
 }
 /*** GENERAL STYLES ***/
 .dark-link{
@@ -61,6 +73,7 @@ body{
 }
 .regular-content{
     padding:20px;
+    margin-bottom:20px;
 }
 .red-bg{
     background: rgba(102,0,0,.7);
